@@ -1,0 +1,46 @@
+.container {
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.custom-input {
+  width: 500px;
+  --mat-form-field-container-height: 40px;
+  --mat-form-field-container-vertical-padding: 8px;
+  --mat-form-field-container-text-size: 14px;
+
+  .mdc-text-field {
+    height: var(--mat-form-field-container-height);
+    padding-top: var(--mat-form-field-container-vertical-padding);
+    font-size: var(--mat-form-field-container-text-size);
+  }
+
+  //   --mdc-outlined-text-field-hover-outline-color: #ff0000;
+  --mdc-outlined-text-field-focus-outline-color: none;
+  --mdc-outlined-text-field-focus-outline-width: 1px;
+}
+
+.custom-input-address {
+  width: 500px;
+  height: 300px;
+
+  --mdc-outlined-text-field-focus-outline-color: none;
+  --mdc-outlined-text-field-focus-outline-width: 1px;
+}
+
+.custom-editor {
+  width: 500px;
+  height: 250px;
+}
+
+.ql-container.ql-snow {
+  border: none !important;
+}
+
+.ql-toolbar.ql-snow {
+  border: none !important;
+  border-bottom: 1px solid #ccc !important;
+}
